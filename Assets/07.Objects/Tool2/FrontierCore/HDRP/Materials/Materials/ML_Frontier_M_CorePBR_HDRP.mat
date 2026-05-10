@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3730141780250967364
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ML_Frontier_M_CorePBR_HDRP
+  m_Shader: {fileID: -6465566751694194690, guid: 8208859208688634a80eaace1522a480,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _DISABLE_SSR_TRANSPARENT
+  - _USE_DETAILNORMALS
+  - _USE_EMISSION
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2225
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DetailNormal:
+        m_Texture: {fileID: 2800000, guid: 6af14ecd4c46d4d4096c1b3c8ba9c827, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 0c1e376d1d7cc264c8b4e7fd193e2954, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMaterial:
+        m_Texture: {fileID: 2800000, guid: 00ee9dd777abc724eb7e06032b315c2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskSurface:
+        m_Texture: {fileID: 2800000, guid: 8fe7414d0490ab14cabdfd10c3cba7d1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTint:
+        m_Texture: {fileID: 2800000, guid: c5b447c740db39f438b0965fd9b6c3be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalBase:
+        m_Texture: {fileID: 2800000, guid: 269624dbc379a1c4a832384f640fff73, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VariationTexture:
+        m_Texture: {fileID: 2800000, guid: 57adb9f6750a8494e923e1d863b8cdf0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AC_Smoothness: 0.8
+    - _AddPrecomputedVelocity: 0
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _BM_Metallic: 1
+    - _BM_Smoothness: 0.7
+    - _BlendMode: 0
+    - _ColorVar: 0.45
+    - _ConservativeDepthOffsetEnable: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _DepthOffsetEnable: 0
+    - _DetailNormalsStrength: 0.03
+    - _DetailNormalsTiling: 12
+    - _DirtIntensity: 0.297
+    - _DirtMinSmoothness: 0.25
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _EdgeBoost: 0
+    - _EmissionBoost: 5000
+    - _EmissionStrength: 6.1
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _ExcludeFromTUAndAA: 0
+    - _MaterialTintStrength_WhenTintMaskOff: 0
+    - _NoMaskTintStrength: 0
+    - _OpaqueCullMode: 2
+    - _PL_Smoothness: 0.6
+    - _PM_Clearcoat: 1
+    - _PM_ClearcoatSmoothness: 0.547
+    - _PM_Smoothness: 0.7
+    - _PaintTintStrength: 1
+    - _PaintWearFactor: 0.053
+    - _RB_Smoothness: 0.2
+    - _RayTracing: 0
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _RustColorVar: 1.22
+    - _RustIntensity: 0.156
+    - _RustMinMetallic: 0.1
+    - _RustMinSmoothness: 0.3
+    - _RustVarTiling: 45.9
+    - _SmoothVar: 0.02
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 15
+    - _StencilWriteMaskMV: 41
+    - _SupportDecals: 1
+    - _SurfaceType: 0
+    - _TintStrength_WhenNotFullCtrl: 0
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _USE_CLEARCOAT: 0
+    - _USE_DETAILNORMALS: 1
+    - _USE_EMISSION: 1
+    - _UseShadowThreshold: 0
+    - _UseVariation: 1
+    - _Use_RustVar: 1
+    - _Use_TextSymbols: 1
+    - _Use_TintFullCtrl: 1
+    - _Use_TintMask: 1
+    - _Use_Top1: 0
+    - _Use_WDR: 1
+    - _VariationTiling: 5
+    - _WearMinSmoothness: 0.4
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _AC_BaseColor: {r: 0.16470587, g: 0.17647055, b: 0.19607836, a: 0}
+    - _BM_BaseColor: {r: 0.7254902, g: 0.72156864, b: 0.68235296, a: 1}
+    - _DirtColor: {r: 0.5215686, g: 0.41568628, b: 0.27058816, a: 1}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColour: {r: 0.8980393, g: 0.43529418, b: 0.050980374, a: 1}
+    - _HdrpEmissionColor: {r: 0.8980393, g: 0.43529418, b: 0.050980374, a: 1}
+    - _PL_BaseColor: {r: 0.8352942, g: 0.80392164, b: 0.7254902, a: 1}
+    - _PM_BaseColor: {r: 0.28627452, g: 0.28627452, b: 0.2901961, a: 1}
+    - _RB_BaseColor: {r: 0.11764707, g: 0.11764707, b: 0.11764707, a: 1}
+    - _RustColor: {r: 0.33333334, g: 0.30588236, b: 0.27058825, a: 1}
+    - _TintColor1: {r: 0.28235298, g: 0.28235298, b: 0.28627446, a: 1}
+    - _TintColor2: {r: 0.9411765, g: 0.8078432, b: 0.10196077, a: 1}
+    - _TintColor3: {r: 0.4823529, g: 0.7686275, b: 0.6039216, a: 1}
+    - _TintColor4: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 0}
+  m_BuildTextureStacks: []
