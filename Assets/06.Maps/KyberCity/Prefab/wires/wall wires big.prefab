@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7478162821044419176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8286054347996979076}
+  - component: {fileID: 7549511513755194931}
+  - component: {fileID: 1742186987589635499}
+  m_Layer: 0
+  m_Name: wall wires big
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8286054347996979076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478162821044419176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8854692425823340116}
+  - {fileID: 687427608821815874}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &7549511513755194931
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478162821044419176}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.00000017881393, y: -0.7877655, z: 1.6696677}
+  m_Size: 3.457817
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.29979703
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7685677556688043323}
+  - screenRelativeHeight: 0.152251
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1855789913509798189}
+  m_Enabled: 1
+--- !u!64 &1742186987589635499
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478162821044419176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7874971270512680455, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+--- !u!1001 &1008950051338436009
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8286054347996979076}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b01ae7ce8f287b42b6dc6fc841bb226, type: 2}
+    - target: {fileID: -7511558181221131132, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7d00118455043a4d8032ba1712e9611, type: 2}
+    - target: {fileID: 919132149155446097, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_Name
+      value: wall wires big lod1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+--- !u!4 &687427608821815874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+  m_PrefabInstance: {fileID: 1008950051338436009}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1855789913509798189 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: e8216c8e919caf344a1639d22ca0afca, type: 3}
+  m_PrefabInstance: {fileID: 1008950051338436009}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9036638290454225343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8286054347996979076}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b01ae7ce8f287b42b6dc6fc841bb226, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7d00118455043a4d8032ba1712e9611, type: 2}
+    - target: {fileID: 919132149155446097, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_Name
+      value: wall wires big
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+--- !u!4 &8854692425823340116 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+  m_PrefabInstance: {fileID: 9036638290454225343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7685677556688043323 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 18c17ab4a1321b74ca8b5c53a8535223, type: 3}
+  m_PrefabInstance: {fileID: 9036638290454225343}
+  m_PrefabAsset: {fileID: 0}

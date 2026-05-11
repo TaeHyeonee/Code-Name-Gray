@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5614205645125316076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5614205645125316078}
+  - component: {fileID: 5614205645125316079}
+  - component: {fileID: 8581938384351065487}
+  m_Layer: 0
+  m_Name: vert wall wires tile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5614205645125316078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5614205645125316076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5360149098979695242}
+  - {fileID: 5360149098533253090}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &5614205645125316079
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5614205645125316076}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -1.3813293, y: 8.419239, z: 0.096248314}
+  m_Size: 3.987255
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.40060222
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6496512729888547301}
+  - screenRelativeHeight: 0.13601474
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6496512728636298381}
+  m_Enabled: 1
+--- !u!65 &8581938384351065487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5614205645125316076}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2328218, y: 3.9872541, z: 0.29281273}
+  m_Center: {x: -1.3813293, y: 8.419239, z: 0.096248314}
+--- !u!1001 &5614205644047252833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5614205645125316078}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 86daef7a98253874db03da1042dfee07, type: 2}
+    - target: {fileID: 919132149155446097, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_Name
+      value: wall wires tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+--- !u!4 &5360149098979695242 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+  m_PrefabInstance: {fileID: 5614205644047252833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6496512729888547301 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: f261894996d3525468ec52ac86e972c4, type: 3}
+  m_PrefabInstance: {fileID: 5614205644047252833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5614205644485232649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5614205645125316078}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 86daef7a98253874db03da1042dfee07, type: 2}
+    - target: {fileID: 919132149155446097, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_Name
+      value: wall wires tile lod1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+--- !u!4 &5360149098533253090 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+  m_PrefabInstance: {fileID: 5614205644485232649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6496512728636298381 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: f180205558aa4694bbd476f6043e143b, type: 3}
+  m_PrefabInstance: {fileID: 5614205644485232649}
+  m_PrefabAsset: {fileID: 0}
